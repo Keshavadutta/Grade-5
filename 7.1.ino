@@ -2,14 +2,14 @@ void setup()
 {
   Serial.begin(9600);
 
-  // Set pin modes for the 7-segment display segments
-  pinMode(5, OUTPUT);  // Segment connected to pin 5 of Arduino
-  pinMode(6, OUTPUT);  // Segment connected to pin 6 of Arduino
-  pinMode(7, OUTPUT);  // Segment connected to pin 7 of Arduino
-  pinMode(8, OUTPUT);  // Segment connected to pin 8 of Arduino
-  pinMode(9, OUTPUT);  // Segment connected to pin 9 of Arduino
-  pinMode(10, OUTPUT); // Segment connected to pin 10 of Arduino
-  pinMode(11, OUTPUT); // Segment connected to pin 11 of Arduino
+// Set up the Arduino pins connected to the 7-segment display as OUTPUT
+  pinMode(5, OUTPUT);  // Segment A
+  pinMode(6, OUTPUT);  // Segment B
+  pinMode(7, OUTPUT);  // Segment C
+  pinMode(8, OUTPUT);  // Segment D
+  pinMode(9, OUTPUT);  // Segment E
+  pinMode(10, OUTPUT); // Segment F
+  pinMode(11, OUTPUT); // Segment G
 }
 
 void loop()
