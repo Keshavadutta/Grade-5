@@ -6,12 +6,12 @@ Welcome to the Grade 5 Code Repository! This repository contains various activit
 
 The following activities are included:
 
-1. **6.1 Fun with lights**
-2. **6.2 Diwali light - I**
-3. **6.3 Diwali light - II**
-4. **7.1 Illuminating 7-segment Display**
-5. **7.2 Counter Display**
-6. **8.1 Display Your Name**
+- **6.1 Fun with lights**
+- **6.2 Diwali light - I**
+- **6.3 Diwali light - II**
+- **7.1 Illuminating 7-segment Display**
+- **7.2 Counter Display**
+- **8.1 Display Your Name**
 
 Each activity focuses on different concepts, helping you learn more about how electronics and programming work with Arduino.
 
