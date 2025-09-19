@@ -1,13 +1,11 @@
 #include <Adafruit_GFX.h>// Graphics library for drawing text and shapes
-#include <Max72xxPanel.h>// Library to control MAX7219 LED matrix
-modules
+#include <Max72xxPanel.h>// Library to control MAX7219 LED matrix modules
 // Matrix configuration
 int pinCS = 10;
 // Chip Select pin connected to Arduino digital pin 10
-Max72xxPanel matrix = Max72xxPanel(pinCS, 2, 1); // 2 matrices horizontally,
-1 row vertically
+Max72xxPanel matrix = Max72xxPanel(pinCS, 2, 1); // 2 matrices horizontally, 1 row vertically
 // Message and timing setup
-String tape = “ Robotics “;
+String tape = " Robotics ";
 int scrollDelay = 70;
 // Text to scroll across the LED matrices
 // Delay (in milliseconds) between scroll steps
@@ -29,8 +27,7 @@ if (currentMillis - prevScrollMillis >= scrollDelay) {
 prevScrollMillis = currentMillis; // Update last scroll time
 matrix.fillScreen(LOW);
 // Clear the LED matrix
-int x = matrix.width() - scrollIndex; // Calculate starting X position for
-scrolling
+int x = matrix.width() - scrollIndex; // Calculate starting X position for scrolling
 matrix.setCursor(x, 0);
 matrix.print(tape);
 // Set cursor position
