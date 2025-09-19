@@ -12,8 +12,7 @@ B10011001,
 B01000010,
 B00111100
 };
-// Angry face pattern 😠 
-(same  as  smiley  but  mouth  flipped)
+// Angry face pattern 😠  (same  as  smiley  but  mouth  flipped)
 byte angry[8] = {
 B00111100,
 B01000010,
