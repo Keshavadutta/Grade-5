@@ -30,14 +30,14 @@ delay(1000);
 Num_Write_to_Seven_Segment(counter);
 }
 }
-// this function writes values to the seven segment
-pins
+// this function writes values to the seven segment pins
 void Num_Write_to_Seven_Segment(int number)
 {
 int pin = 5;
-Serial.print(“Number = “);
+Serial.print("Number = ");
 Serial.println(number);
 for (int j=0; j<7; j++) {
 digitalWrite(pin, num_array[number][j]);
 pin++;
+}
 }
