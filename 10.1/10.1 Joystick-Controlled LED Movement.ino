@@ -21,33 +21,33 @@ lc.clearDisplay(0); // Clear display
 // Move Right
 if (xValue > 700 && x < 7) {
 x++;
-Serial.print(“xValue= “);
+Serial.print("xValue= “);
 Serial.println(xValue);
-Serial.print(d”x= “);
+Serial.print("x= ");
 Serial.println(x);
 }
 // Move left
 else if (xValue < 300 && x > 0) {
 x--;
-Serial.print(“xValue= “);
+Serial.print("xValue= “);
 Serial.println(xValue);
-Serial.print(“x= “);
+Serial.print("x= ");
 Serial.println(x);
 }
 // Move UP
 if (yValue < 300 && y > 0) {
 y--;
-Serial.print(“yValue= “);
+Serial.print("yValue= ");
 Serial.println(yValue);
-Serial.print(“y= “);
+Serial.print("y= ");
 Serial.println(y);
 }
 // Move DOWN
 else if (yValue > 700 && y < 7) {
 y++;
-Serial.print(“yValue= “);
+Serial.print("yValue= ");
 Serial.println(yValue);
-Serial.print(“y= “);
+Serial.print("y= ");
 Serial.println(y);
 }
 lc.setLed(0, y, x, true); // Turn on LED at (x, y)
