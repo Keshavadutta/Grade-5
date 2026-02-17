@@ -21,7 +21,7 @@ lc.clearDisplay(0); // Clear display
 // Move Right
 if (xValue > 700 && x < 7) {
 x++;
-Serial.print("xValue= “);
+Serial.print("xValue= ");
 Serial.println(xValue);
 Serial.print("x= ");
 Serial.println(x);
@@ -29,7 +29,7 @@ Serial.println(x);
 // Move left
 else if (xValue < 300 && x > 0) {
 x--;
-Serial.print("xValue= “);
+Serial.print("xValue= ");
 Serial.println(xValue);
 Serial.print("x= ");
 Serial.println(x);
